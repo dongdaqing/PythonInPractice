@@ -13,7 +13,7 @@ mailto_list=["dongdaqing@youku.com"]
 #设置服务器，用户名、口令以及邮箱的后缀
 mail_host="mail.youku.com"
 mail_user="dongdaqing"
-mail_pass="Yanfeng_840330"
+mail_pass="password"
 mail_postfix="youku.com"
 ######################
 def send_mail(to_list,sub,content):
