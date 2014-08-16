@@ -6,13 +6,13 @@ import urlparse, socket, logging, threading
 import multiprocessing
 
 reload(sys)
-#���ascii����ʾ����
+#解决ascii码显示问题
 sys.setdefaultencoding( "utf-8" )
 readUrl = r"/usr/local/repos/interfaceUrl3.0/url3.0.txt"
 httpMothed = ""
 interfaceName = ""
 interfaceUrl = ""
-#������Խӿں���ʽ�ӿ������б�"api.3g.youku.com"
+#定义测试接口和正式接口域名列表"api.3g.youku.com"
 urlList = ["test1.api.3g.youku.com"]
 w_path = platform.system().lower() == 'linux' and r'/opt' or r'C:\interfaceUrl3.0' 
 nowtime=time.strftime('%Y%m%d%H%M%S',time.localtime())+'_total'
@@ -22,29 +22,29 @@ totalCount = 0
 totalResponseTime=0
 failTotal = 0
 if not os.path.exists(folder_w_path):os.makedirs(folder_w_path)
-#log��¼����
+#log记录定义
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-#������־������ļ���handler
+#定义日志输出到文件的handler
 inputFile = logging.FileHandler(os.path.join(folder_w_path,'testInterfaceUrl.log'))
 inputFile.setLevel(logging.DEBUG)
 
-# ������־���������̨��handler
+# 定义日志输出到控制台的handler
 inputConsole = logging.StreamHandler()
 inputConsole.setLevel(logging.DEBUG)
-#���handler
+#添加handler
 logger.addHandler(inputFile)
 logger.addHandler(inputConsole)
 
 class MutiThread(threading.Thread):
-    # ���캯��  
+    # 构造函数  
     def __init__(self, thread_name):  
         threading.Thread.__init__(self)  
         self.test_count = 0  
         
     def run(self):
-        # �߳����е���ں���  
+        # 线程运行的入口函数  
         a=self.outputTestResult()
     
     def comment(self,string,fileName='Details'):
@@ -71,7 +71,7 @@ class MutiThread(threading.Thread):
             f2.close()
 
     def reset(self, getSucessCount, getFailCount, postSucessCount, postFailCount, postCountTotal, getCountTotal):
-        #���ø�����
+        #重置各变量
         getSucessCount = 0
         getFailCount = 0
         postSucessCount = 0
@@ -81,12 +81,12 @@ class MutiThread(threading.Thread):
         return getSucessCount, getFailCount, postSucessCount, postFailCount, postCountTotal, getCountTotal
 
     def updateUrl(self, interfaceUrl, urlTest):
-        #�޸Ĳ��Խӿڻ���ʽ�ӿ�����
-        #����url���Ϊscheme, netloc, path, parameters, query, fragment
+        #修改测试接口或正式接口域名
+        #解析url组件为scheme, netloc, path, parameters, query, fragment
         openurl = urlparse.urlsplit(interfaceUrl)
-        #��tupleתΪlist
+        #将tuple转为list
         oldUrlChangeList = list(tuple(openurl))
-        #����list�����scheme, netloc, path, parameters, query, fragmentֵ
+        #更新list组件的scheme, netloc, path, parameters, query, fragment值
         oldUrlChangeList[1] = urlTest
         scheme = oldUrlChangeList[0]
         netloc = oldUrlChangeList[1]
@@ -94,13 +94,13 @@ class MutiThread(threading.Thread):
         parameters = ""
         query= oldUrlChangeList[3]
         fragment = oldUrlChangeList[4]
-        #ʹ��urlunparse���½�list�������tuple
+        #使用urlunparse重新将list重新组成tuple
         interfaceUrl = urlparse.urlunparse((scheme, netloc, path, parameters, query, fragment))
         return interfaceUrl
 
     def mothedGet(self,name, mothed, url, failCount):
-        #ʹ��get��ʽ����server
-        #totalCountĬ����Ϊ������
+        #使用get方式访问server
+        #totalCount默认认为递增和
         responseTime=0
         timeConsuming = time.time()
         statrTime = time.time()
@@ -109,7 +109,7 @@ class MutiThread(threading.Thread):
         docUrlfail = r"{} Interface name={}  Request mothed={}  testStatus = {}".\
             format(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime()),name, mothed, "fail")
             
-        #urllib2����httpErrorCodeֻ�ᱨ��400-599��range
+        #urllib2关于httpErrorCode只会报出400-599的range
         if mothed == "get":
             try:
                 req = urllib2.Request(url)
@@ -170,7 +170,7 @@ class MutiThread(threading.Thread):
         return failCount,responseTime
         
     def testperfmance(self):
-        #���Ժ���
+        #测试函数
         global totalCount
         global failTotal
         global totalResponseTime
@@ -179,23 +179,23 @@ class MutiThread(threading.Thread):
         fail = 0
         responseTime=0
         
-        #�򿪽ӿ��ļ�
+        #打开接口文件
         try:
             readFile = codecs.open(readUrl, encoding="utf-8")
             fileLine = readFile.read()
         finally:
             readFile.close()
-        #�����ظ����ʴ���50�ӿڷ���/��
-        #��ȡurlList�����������б�
+        #设置重复访问次数，50接口访问/次
+        #读取urlList服务器域名列表
         for urlTest in urlList:
             print "-" * 150
             print urlTest
             print "-" * 150
-            #���ж�ȡ�ļ�����
+            #按行读取文件内容
             for line in fileLine.split("\n"):
                 totalCount += 1
                 if line:
-                    #���ո�ָ��ֶΣ����ж�ʹ��mothed��ʽ
+                    #按空格分隔字段，以判断使用mothed方式
                     interfaceName, httpMothed, interfaceUrl = line.split(" ")
                     interfaceUrl = self.updateUrl(interfaceUrl, urlTest)
                     fail ,responseTime= self.mothedGet(interfaceName, httpMothed, interfaceUrl, failCount)
@@ -205,19 +205,19 @@ class MutiThread(threading.Thread):
         return totalCount, failTotal, float(format(float(totalResponseTime)*1000/(totalCount-failTotal),'.3f'))
 
     def outputTestResult(self):
-        #������Խ��
+        #输出测试结果
         startTime=time.time()
         result=self.testperfmance()
-        #/*��ɵ���������*/
+        #/*完成的请求数量*/
         logger.info('Complete requests:\t%d'%(result[0]))
-        #/*ʧ�ܵ���������*/
+        #/*失败的请求数量*/
         logger.info('Failed requests:\t%d'%result[1])
-        #ƽ��������Ӧʱ�� �����������е� mean ��ʾ����һ��ƽ��ֵ
+        #平均事务响应时间 ，后面括号中的 mean 表示这是一个平均值
         logger.info('Time per request::\t%.3f [ms] (mean)'%result[2])
         endTime=time.time()
         logger.info('Time taken for tests:\t%.6f seconds'%(endTime-startTime))
 def startThread(thread_count=10):
-    #���̲߳���
+    #多线程并发
     start_time = time.time()  
     i = 0  
     while i < thread_count: 
@@ -229,7 +229,7 @@ if __name__ == '__main__':
     startTime=time.time()
     startThread()
     endTime=time.time()
-    #/*������Գ����ʱ��*/
+    #/*整个测试持续的时间*/
     logger.info('Time taken for tests:\t%.6f seconds'%(endTime-startTime))
 
 
