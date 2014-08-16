@@ -1,0 +1,50 @@
+Interface name=批量获得图像信息  Request method=get  testStatus=pass  time(s)=0.25
+Interface name=下载接口  Request method=get  testStatus=fail  404  time(s)=0.0150001049042
+Interface name=视频信息  Request method=get  testStatus=pass  time(s)=0.0320000648499
+Interface name=收藏接口  Request method=get  testStatus=pass  time(s)=0.061999797821
+Interface name=上传列表返回高清图  Request method=get  testStatus=pass  time(s)=0.343000173569
+Interface name=获取播放历史  Request method=get  testStatus=pass  time(s)=0.125
+Interface name=添加频道收藏  Request method=post  testStatus=pass  time(s)=0.0319998264313
+Interface name=取消频道收藏  Request method=post  testStatus=pass  time(s)=0.0160000324249
+Interface name=列出频道收藏  Request method=get  testStatus=pass  time(s)=0.0310001373291
+Interface name=添加大词  Request method=post  testStatus=pass  time(s)=0.0160000324249
+Interface name=删除大词  Request method=post  testStatus=pass  time(s)=0.0309998989105
+Interface name=获取用户订阅节目  Request method=get  testStatus=pass  time(s)=0.31200003624
+Interface name=查询剧集信息  Request method=get  testStatus=pass  time(s)=0.0309998989105
+Interface name=查询节目信息  Request method=get  testStatus=pass  time(s)=0.625
+Interface name=获得相关人物接口  Request method=get  testStatus=pass  time(s)=0.0160000324249
+Interface name=分类排名列表(优酷指数)  Request method=get  testStatus=pass  time(s)=0.0789999961853
+Interface name=分类排名筛选列表  Request method=get  testStatus=pass  time(s)=0.0310001373291
+Interface name=获取分集区分综艺和剧集  Request method=get  testStatus=pass  time(s)=0.233999967575
+Interface name=相关视频  Request method=get  testStatus=pass  time(s)=0.125
+Interface name=获取专辑下的视频  Request method=get  testStatus=pass  time(s)=0.0620000362396
+Interface name=视频详情页(android)  Request method=get  testStatus=pass  time(s)=0.125
+Interface name=wap热播页  Request method=get  testStatus=fail  400  time(s)=2.88599991798
+Interface name=wap频道页  Request method=get  testStatus=fail  504  time(s)=3.01200008392
+Interface name=wap频道列表  Request method=get  testStatus=pass  time(s)=0.0149998664856
+Interface name=wap频道下的页面列表  Request method=get  testStatus=pass  time(s)=0.0480000972748
+Interface name=wap返回youku页面对应的模块信息  Request method=get  testStatus=pass  time(s)=0.0460000038147
+Interface name=wap返回youku模块对应的信息  Request method=get  testStatus=pass  time(s)=0.0629999637604
+Interface name=wap首页  Request method=get  testStatus=pass  time(s)=3.41599988937
+Interface name=360应用  Request method=get  testStatus=pass  time(s)=0.0160000324249
+Interface name=phone获取播放页相关视频  Request method=get  testStatus=pass  time(s)=0.0629999637604
+Interface name=phone视频详情页  Request method=get  testStatus=pass  time(s)=0.108999967575
+Interface name=phone热播页  Request method=get  testStatus=pass  time(s)=0.624000072479
+Interface name=phone频道列表  Request method=get  testStatus=pass  time(s)=0.0160000324249
+Interface name=phone获取频道筛选条件  Request method=get  testStatus=pass  time(s)=0.0309998989105
+Interface name=phone频道页  Request method=get  testStatus=pass  time(s)=0.515000104904
+Interface name=android大词页  Request method=get  testStatus=pass  time(s)=0.0479998588562
+Interface name=android大词搜索  Request method=get  testStatus=pass  time(s)=2.98200011253
+Interface name=android根据大词获取频道列表  Request method=get  testStatus=pass  time(s)=0.313999891281
+Interface name=android搜索直达区  Request method=get  testStatus=pass  time(s)=0.608000040054
+Interface name=android无数据推荐接口  Request method=get  testStatus=pass  time(s)=0.0160000324249
+Interface name=android3.0搜索过滤  Request method=get  testStatus=pass  time(s)=0.0310001373291
+Interface name=android视频详情页  Request method=get  testStatus=pass  time(s)=0.0149998664856
+Interface name=android启动页  Request method=get  testStatus=pass  time(s)=0.0160000324249
+Interface name=android编辑推荐  Request method=get  testStatus=pass  time(s)=0.0469999313354
+Interface name=android猜你喜欢  Request method=get  testStatus=pass  time(s)=0.0480000972748
+Interface name=android导航条  Request method=get  testStatus=pass  time(s)=0.0149998664856
+Interface name=android个人中心接口  Request method=get  testStatus=pass  time(s)=0.18700003624
+Interface name=android频道列表  Request method=get  testStatus=pass  time(s)=0.0320000648499
+Interface name=android获取频道筛选条件  Request method=get  testStatus=pass  time(s)=0.0150001049042
+urlTotal=49 succTotal=46  failTotal=3
