@@ -1,0 +1,28 @@
+09-30 15:45:45.139: D/advertisement(12701): begin request advertisement API£ºhttp://test1.api.3g.youku.com/adv/startpage?site=1&width=600&height=1024&device_brand=samsung&ouid=ee1065c93063def7&pid=4e308edfc33936d7&guid=0e2c71947caefe90049c88f6d691661f&mac=bc:47:60:f6:f3:c4&imei=&ver=3.2.1&network=WIFI
+09-30 15:45:45.139: D/advertisement(12701): User_Agent:Youku HD;3.2.1;Android;2.2.2;GT-P1010
+09-30 15:45:50.139: D/advertisement(12701): Go Home
+09-30 15:46:39.686: D/advertisement(12813): begin request advertisement API£ºhttp://test1.api.3g.youku.com/adv/startpage?site=1&width=600&height=1024&device_brand=samsung&ouid=ee1065c93063def7&pid=4e308edfc33936d7&guid=0e2c71947caefe90049c88f6d691661f&mac=bc:47:60:f6:f3:c4&imei=&ver=3.2.1&network=WIFI
+09-30 15:46:39.686: D/advertisement(12813): User_Agent:Youku HD;3.2.1;Android;2.2.2;GT-P1010
+09-30 15:46:43.022: D/advertisement(12813): get advertisement image success
+09-30 15:46:44.678: D/advertisement(12813): get advertisement API Success
+09-30 15:46:44.678: D/advertisement(12813): advertisement exposure url£ºhttp://mf.atm.youku.com/mshow?v=null&at=75&ct=&cs=&ca=113002&ie=125665&uid=null&ck=13714554179411NN&al=0&bl=0&s=&td=&st=1&vl=90.0&ap=300&sid=&cr=0&tvb=0&pr=-1&oidtype=24443%7C0&tpa=null&rid=&os=1&dt=1&aw=a
+09-30 15:46:44.686: D/advertisement(12813): advertisement exposure url£ºhttp://www.baidu.com?show
+09-30 15:46:44.725: D/advertisement(12813): advertisement exposure url£ºhttp://www.baidu.com?iso
+09-30 15:46:44.772: D/advertisement(12813): the response of advertisement exposure url£º200
+09-30 15:46:44.772: D/advertisement(12813): the response of advertisement exposure url£º200
+09-30 15:46:45.147: D/advertisement(12813): the response of advertisement exposure url£º200
+09-30 15:46:47.733: D/advertisement(12813): advertisement exposure url£ºhttp://vid.atm.youku.com/mover?v=null&at=75&ct=&cs=&ca=113002&ie=125665&uid=null&ck=13714554179411NN&al=0&bl=0&s=&td=&st=1&vl=90.0&ap=300&sid=&cr=0&tvb=0&pr=-1&oidtype=24443%7C0&tpa=null&rid=&os=1&dt=1&aw=a
+09-30 15:46:47.749: D/advertisement(12813): Go Home
+09-30 15:46:49.858: D/advertisement(12813): the response of advertisement exposure url£º504
+09-30 15:46:56.959: D/advertisement(12898): begin request advertisement API£ºhttp://test1.api.3g.youku.com/adv/startpage?site=1&width=600&height=1024&device_brand=samsung&ouid=ee1065c93063def7&pid=4e308edfc33936d7&guid=0e2c71947caefe90049c88f6d691661f&mac=bc:47:60:f6:f3:c4&imei=&ver=3.2.1&network=WIFI
+09-30 15:46:56.959: D/advertisement(12898): User_Agent:Youku HD;3.2.1;Android;2.2.2;GT-P1010
+09-30 15:47:01.944: D/advertisement(12898): get advertisement API Success
+09-30 15:47:01.952: D/advertisement(12898): advertisement exposure url£ºhttp://mf.atm.youku.com/mshow?v=null&at=75&ct=&cs=&ca=113002&ie=125665&uid=null&ck=13714554179411NN&al=0&bl=0&s=&td=&st=1&vl=90.0&ap=300&sid=&cr=0&tvb=0&pr=-1&oidtype=24443%7C0&tpa=null&rid=&os=1&dt=1&aw=a
+09-30 15:47:01.959: D/advertisement(12898): advertisement exposure url£ºhttp://www.baidu.com?show
+09-30 15:47:01.991: D/advertisement(12898): advertisement exposure url£ºhttp://www.baidu.com?iso
+09-30 15:47:02.061: D/advertisement(12898): the response of advertisement exposure url£º200
+09-30 15:47:02.069: D/advertisement(12898): the response of advertisement exposure url£º200
+09-30 15:47:02.092: D/advertisement(12898): the response of advertisement exposure url£º200
+09-30 15:47:04.975: D/advertisement(12898): Go Home
+09-30 15:47:04.991: D/advertisement(12898): advertisement exposure url£ºhttp://vid.atm.youku.com/mover?v=null&at=75&ct=&cs=&ca=113002&ie=125665&uid=null&ck=13714554179411NN&al=0&bl=0&s=&td=&st=1&vl=90.0&ap=300&sid=&cr=0&tvb=0&pr=-1&oidtype=24443%7C0&tpa=null&rid=&os=1&dt=1&aw=a
+09-30 15:47:05.155: D/advertisement(12898): the response of advertisement exposure url£º200

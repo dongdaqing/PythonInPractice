@@ -1,0 +1,28 @@
+Request	User-Agent	Exposure1	Exposure2	Exposure3	Exposure4	
+None	None	None	None	None	None
+None	None	None	None	None	None
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=320&height=480&device_brand=lenovo&ouid=804c35be0fd186d7&pid=4e308edfc33936d7&guid=f9c633df984e42352441e0e47c13b9c3&mac=00:12:fe:11:40:88&imei=868727002820552&ver=3.2.1&network=WIFI	Lenovo P70	None	None	None	None
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=240&height=320&device_brand=Motorola&ouid=ad8e880e9cb83274&pid=4e308edfc33936d7&guid=3e96bfd9dbc427de832212365a31be8e&mac=cc:f3:a5:ef:3c:c1&imei=358233040337110&ver=3.2.1&network=WIFI	XT317	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=240&height=320&device_brand=Motorola&ouid=ad8e880e9cb83274&pid=4e308edfc33936d7&guid=3e96bfd9dbc427de832212365a31be8e&mac=cc:f3:a5:ef:3c:c1&imei=358233040337110&ver=3.2.1&network=WIFI	XT317	None	None	None	None
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=MOTO&ouid=f3b26e5d84459bc8&pid=4e308edfc33936d7&guid=23c1ef0ed1f18d7ce12908d47c1721b4&mac=C8:AA:21:58:09:63&imei=A000002C3B1511&ver=3.2.1&network=WIFI	XT882	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=MOTO&ouid=f3b26e5d84459bc8&pid=4e308edfc33936d7&guid=23c1ef0ed1f18d7ce12908d47c1721b4&mac=C8:AA:21:58:09:63&imei=A000002C3B1511&ver=3.2.1&network=WIFI	XT882	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=MOTO&ouid=f3b26e5d84459bc8&pid=4e308edfc33936d7&guid=23c1ef0ed1f18d7ce12908d47c1721b4&mac=C8:AA:21:58:09:63&imei=A000002C3B1511&ver=3.2.1&network=WIFI	XT882	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=MOTO&ouid=f3b26e5d84459bc8&pid=4e308edfc33936d7&guid=23c1ef0ed1f18d7ce12908d47c1721b4&mac=C8:AA:21:58:09:63&imei=A000002C3B1511&ver=3.2.1&network=WIFI	XT882	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=MOTO&ouid=f3b26e5d84459bc8&pid=4e308edfc33936d7&guid=23c1ef0ed1f18d7ce12908d47c1721b4&mac=C8:AA:21:58:09:63&imei=A000002C3B1511&ver=3.2.1&network=WIFI	XT882	None	None	None	None
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=htccn_chs_cmcc&ouid=1b962642d785edbf&pid=4e308edfc33936d7&guid=f52938a5f3e0a8c1897d76e8940f2694&mac=18:87:96:d1:d3:98&imei=860407001579453&ver=3.2.1&network=WIFI	HTC Z710t	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=htccn_chs_cmcc&ouid=1b962642d785edbf&pid=4e308edfc33936d7&guid=f52938a5f3e0a8c1897d76e8940f2694&mac=18:87:96:d1:d3:98&imei=860407001579453&ver=3.2.1&network=WIFI	HTC Z710t	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=htccn_chs_cmcc&ouid=1b962642d785edbf&pid=4e308edfc33936d7&guid=f52938a5f3e0a8c1897d76e8940f2694&mac=18:87:96:d1:d3:98&imei=860407001579453&ver=3.2.1&network=WIFI	HTC Z710t	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=htccn_chs_cmcc&ouid=1b962642d785edbf&pid=4e308edfc33936d7&guid=f52938a5f3e0a8c1897d76e8940f2694&mac=18:87:96:d1:d3:98&imei=860407001579453&ver=3.2.1&network=WIFI	HTC Z710t	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=540&height=960&device_brand=htccn_chs_cmcc&ouid=1b962642d785edbf&pid=4e308edfc33936d7&guid=f52938a5f3e0a8c1897d76e8940f2694&mac=18:87:96:d1:d3:98&imei=860407001579453&ver=3.2.1&network=WIFI	HTC Z710t	None	None	None	None
+None	None	None	None	None	None
+advertisement	MZ606	None	None	None	None	
+advertisement	MZ606	None	None	None	None	
+advertisement	MZ606	None	None	None	None	
+advertisement	MZ606	None	None	None	None	
+advertisement	MZ606	None	None	None	None
+None	None	None	None	None	None
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=720&height=1200&device_brand=Lenovo&ouid=65d70a60759a7b6&pid=4e308edfc33936d7&guid=c9a24191876278e8dfce3ee1919b1de6&mac=00:12:fe:d9:07:91&imei=864737010019372&ver=3.2.1&network=WIFI	Lenovo K860	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=720&height=1200&device_brand=Lenovo&ouid=65d70a60759a7b6&pid=4e308edfc33936d7&guid=c9a24191876278e8dfce3ee1919b1de6&mac=00:12:fe:d9:07:91&imei=864737010019372&ver=3.2.1&network=WIFI	Lenovo K860	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=720&height=1200&device_brand=Lenovo&ouid=65d70a60759a7b6&pid=4e308edfc33936d7&guid=c9a24191876278e8dfce3ee1919b1de6&mac=00:12:fe:d9:07:91&imei=864737010019372&ver=3.2.1&network=WIFI	Lenovo K860	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=720&height=1200&device_brand=Lenovo&ouid=65d70a60759a7b6&pid=4e308edfc33936d7&guid=c9a24191876278e8dfce3ee1919b1de6&mac=00:12:fe:d9:07:91&imei=864737010019372&ver=3.2.1&network=WIFI	Lenovo K860	None	None	None	None	
+API：http://test1.api.3g.youku.com/adv/startpage?site=1&width=720&height=1200&device_brand=Lenovo&ouid=65d70a60759a7b6&pid=4e308edfc33936d7&guid=c9a24191876278e8dfce3ee1919b1de6&mac=00:12:fe:d9:07:91&imei=864737010019372&ver=3.2.1&network=WIFI	Lenovo K860	None	None	None	None
